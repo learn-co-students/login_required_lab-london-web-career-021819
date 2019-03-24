@@ -1,0 +1,6 @@
+<h1>User comes here once logged in</h1>
+
+<h1>Hi, <%= session[:name] %>.</h1>
+
+<p>They see a 'link to secret page'</p>
+<%= link_to "psst...secrets!", secrets_show_path %>
